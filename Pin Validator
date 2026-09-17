@@ -1,0 +1,6 @@
+pin = input("Enter your 6- Digit PIN: ")
+
+if len(pin) == 6 and pin.isdigit():
+    print("PIN is valid.")
+else:
+    print("PIN is invalid: enter atleast 6 digits.")

@@ -1,0 +1,10 @@
+import re
+
+SI = input("enter your student ID code. ")
+
+pattern = r"\d{4}-\d{4}"
+
+if re.fullmatch(pattern, SI):
+    print("Student ID is valid.")
+else:
+    print("Student ID is not valid.")

@@ -1,0 +1,5 @@
+ExamScore = int(input("enter your final grade "))
+if 0 <=ExamScore <=100 and ExamScore.isdigit():
+    print("Your final grade is too high. Or formatted wrong,")
+else:
+    print("Your final grade is valid")
